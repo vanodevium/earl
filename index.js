@@ -3,7 +3,7 @@
  * @property {"query"|"mutation"|undefined} _type
  * @property {string=} _name
  * @property {string=} _alias
- * @property {Array<string|QueryObject>=} _fields
+ * @property {Object|Array<string|QueryObject>=} _fields
  * @property {{string, string}=} _variables
  * @property {Object<string, string|object>|undefined} _arguments
  */
